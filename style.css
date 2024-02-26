@@ -1,0 +1,61 @@
+
+body {
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    background-color: #444;
+    /* padding: 3vmin; */
+} 
+  
+  
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+canvas {
+    position: absolute; 
+    top: 0px; 
+    left: 0px; 
+}
+
+.canvasArea {
+    position: relative; 
+    top: 0px; 
+    left: 0px; 
+    width: 800px;  
+    height: 800px; 
+    /* margin-left: auto; 
+    margin-right: auto;  */
+    background-color: #1a1a1a;  
+
+    
+    /* object-fit:scale-down; */
+}
+.beadObject{
+    position: absolute; 
+    /* left: 700px;  */
+    /* top: 50px;  */
+}
+.bead{
+    position: relative; 
+    width: 20px; 
+    height: 20px; 
+    background-color: #cc1219; 
+    border-radius: 60%; 
+}
+
+.reflection { 
+    position: absolute; 
+    top: 5px; 
+    right: 5px; 
+    width: 4px; 
+    height: 4px; 
+    background-color: #ffffff; 
+    border-radius: 60%;
+}
